@@ -1,0 +1,57 @@
+{
+  "name": "@ka-libs/utils",
+  "version": "1.1.0",
+  "description": "",
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.cjs"
+    },
+    "./bind-key": {
+      "import": "./dist/esm/exports/bind-key.js",
+      "types": "./dist/types/bind-key.d.ts"
+    },
+    "./dom-helper": {
+      "import": "./dist/esm/exports/dom-helper.js",
+      "types": "./dist/types/dom-helper.d.ts"
+    },
+    "./event-emitter": {
+      "import": "./dist/esm/exports/event-emitter.js",
+      "types": "./dist/types/event-emitter.d.ts"
+    },
+    "./event-manager": {
+      "import": "./dist/esm/exports/event-manager.js",
+      "types": "./dist/types/event-manager.d.ts"
+    },
+    "./helper": {
+      "import": "./dist/esm/exports/helper.js",
+      "types": "./dist/types/helper.d.ts"
+    },
+    "./instance-registry": {
+      "import": "./dist/esm/exports/instance-registry.js",
+      "types": "./dist/types/instance-registry.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kuzuki Azusa",
+  "license": "MIT"
+}
