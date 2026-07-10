@@ -13,28 +13,22 @@
       "require": "./dist/cjs/index.cjs"
     },
     "./bind-key": {
-      "import": "./dist/esm/exports/bind-key.js",
-      "types": "./dist/types/bind-key.d.ts"
+      "import": "./dist/esm/exports/bind-key.js"
     },
     "./dom-helper": {
-      "import": "./dist/esm/exports/dom-helper.js",
-      "types": "./dist/types/dom-helper.d.ts"
+      "import": "./dist/esm/exports/dom-helper.js"
     },
     "./event-emitter": {
-      "import": "./dist/esm/exports/event-emitter.js",
-      "types": "./dist/types/event-emitter.d.ts"
+      "import": "./dist/esm/exports/event-emitter.js"
     },
     "./event-manager": {
-      "import": "./dist/esm/exports/event-manager.js",
-      "types": "./dist/types/event-manager.d.ts"
+      "import": "./dist/esm/exports/event-manager.js"
     },
     "./helper": {
-      "import": "./dist/esm/exports/helper.js",
-      "types": "./dist/types/helper.d.ts"
+      "import": "./dist/esm/exports/helper.js"
     },
     "./instance-registry": {
-      "import": "./dist/esm/exports/instance-registry.js",
-      "types": "./dist/types/instance-registry.d.ts"
+      "import": "./dist/esm/exports/instance-registry.js"
     }
   },
   "files": [
