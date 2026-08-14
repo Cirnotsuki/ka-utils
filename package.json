@@ -1,6 +1,6 @@
 {
   "name": "@ka-libs/utils",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "./dist/cjs/index.cjs",
   "module": "./dist/esm/index.js",
@@ -12,23 +12,33 @@
       "import": "./dist/esm/index.js",
       "require": "./dist/cjs/index.cjs"
     },
-    "./bind-key": {
-      "import": "./dist/esm/exports/bind-key.js"
+    "./helper": {
+      "import": "./dist/esm/lib/helper/helper.js",
+      "types": "./dist/types/Helper.d.ts"
     },
     "./dom-helper": {
-      "import": "./dist/esm/exports/dom-helper.js"
+      "import": "./dist/esm/lib/helper/dom-helper.js",
+      "types": "./dist/types/dom-helper.d.ts"
     },
-    "./event-emitter": {
-      "import": "./dist/esm/exports/event-emitter.js"
+    "./bind-key": {
+      "import": "./dist/esm/lib/bind-key.js",
+      "types": "./dist/types/bind-key.d.ts"
     },
     "./event-manager": {
-      "import": "./dist/esm/exports/event-manager.js"
+      "import": "./dist/esm/lib/event-manager.js",
+      "types": "./dist/types/event-manager.d.ts"
     },
-    "./helper": {
-      "import": "./dist/esm/exports/helper.js"
+    "./event-emitter": {
+      "import": "./dist/esm/lib/event-emiter.js",
+      "types": "./dist/types/event-emiter.d.ts"
     },
     "./instance-registry": {
-      "import": "./dist/esm/exports/instance-registry.js"
+      "import": "./dist/esm/lib/instance-registry.js",
+      "types": "./dist/types/instance-registry.d.ts"
+    },
+    "./run-file": {
+      "import": "./dist/esm/lib/run-file.js",
+      "types": "./dist/types/run-file.d.ts"
     }
   },
   "files": [
